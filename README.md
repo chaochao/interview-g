@@ -1,5 +1,5 @@
-**Include brief notes or comments if you made tradeoffs or assumptions **
-I write the server in node.js and Express
+**Include brief notes or comments if you made tradeoffs or assumptions:**
+*I write the server in Node.js and Express*
 
 **how you would productionize your submission:**
 1. **Geo Search**: Replace the in-memory geo search with database geo-indexing for scalability and efficient queries.  
