@@ -1,11 +1,6 @@
-how you would productionize your submission:
-
-Geo Search: Replace the current in-memory geo search with database-level geo-indexing to ensure scalability and efficient query performance.
-
-Word Search: Use fuzzy matching instead of simple text matching to handle typos, variations, and improve overall search relevance.
-
-Pagination: Add pagination support to manage large datasets efficiently and prevent performance degradation from returning all results at once.
-
-Sorting: Ensure results are sorted by distance by default to improve user experience and make search results more meaningful.
-
-Multi-Parameter Search: Extend functionality to allow filtering and sorting by multiple parameters, such as popularity, rating, and more, for richer search capabilities.
+**how you would productionize your submission:**
+1. **Geo Search**: Replace the in-memory geo search with database geo-indexing for scalability and efficient queries.  
+2. **Word Search**: Use fuzzy matching to handle typos, variations, and improve search relevance.  
+3. **Pagination**: Implement pagination to manage large datasets and avoid performance issues.  
+4. **Sorting**: Return results sorted by distance by default for a better user experience.  
+5. **Multi-Parameter Search**: Support filtering and sorting by multiple parameters (e.g., popularity, rating) for richer search capabilities.  
